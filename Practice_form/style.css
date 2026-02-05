@@ -59,6 +59,7 @@ textarea {
     cursor: pointer;
     background-color: #000;
     border-color: #9a0000;
+    color: #cdcaca;
 }
 fieldset {
     width: 320px;
