@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="form.css" />
+		<link rel="stylesheet" href="normalize.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<main>
+			<form class="first-form form">
+				<fieldset class="first-fs fs">
+					<header class="header">
+						<p>Кто будет пользоваться аккаунтом?</p>
+					</header>
+
+					<div class="select-user">
+						<div class="Me option">
+							<input type="radio" name="user" class="user" />
+							<label>Только я</label>
+						</div>
+						<div class="Me-other option">
+							<input type="radio" name="user" class="user" />
+							<label>Я и кто-то другой</label>
+						</div>
+						<div class="Other option">
+							<input type="radio" name="user" class="user" />
+							<label>Кто-то другой</label>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+
+			<form class="second-form form">
+				<fieldset class="second-fs fs">
+					<header class="header">
+						<p>Ваши данные</p>
+					</header>
+
+					<div class="about-user">
+						<div class="details">
+							<label class="FirstName">Ваше имя*</label>
+							<input
+								class="FirstName"
+								type="text"
+								placeholder="Имя"
+							/>
+						</div>
+
+						<div class="details">
+							<label class="LastName">Ваша фамилия*</label>
+							<input
+								class="LastName"
+								type="text"
+								placeholder="Фамилия"
+							/>
+						</div>
+					</div>
+					<div>
+						<div class="details">
+							<label class="dob">Ваша дата рождения*</label>
+							<input class="dob" type="date" />
+							<small>
+								Используется для проверки вашей личности
+							</small>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+			<div class="button">
+				<button class="Send">Отправить запрос</button>
+			</div>
+		</main>
+	</body>
+</html>

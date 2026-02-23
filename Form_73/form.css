@@ -1,0 +1,135 @@
+html {
+    font-family: sans-serif;
+    background-color: #E1F0F4;
+}
+
+body * {
+    box-sizing: border-box;
+}
+.first-form {
+    margin-top: 30px;
+}
+.form {
+    margin: 25px auto;
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    border: 3px solid rgb(231, 231, 231);
+    border-radius: 10px;
+}
+.header {
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid rgb(231, 231, 231);
+}
+.fs {
+    padding: 0;
+    border: none;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.first-form {
+    margin-bottom: 30px;
+}
+.select-user {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 10px;
+    padding: 0 15px 15px 10px;
+}
+.select-user div {
+    transition: color 0.15s, border 0.15s;
+}
+.select-user div:hover {
+    /* background-color: rgb(74, 194, 242); */
+    color: rgb(90, 90, 255);
+    border: 2px solid rgb(90, 90, 255);
+}
+.option {
+    flex: 1;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid rgb(231, 231, 231);
+    padding: 10px 40px 10px 5px;
+    justify-content: start;
+
+
+}
+
+
+.button {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.button button {
+    padding: 5px 10px;
+    transition: background-color 0.2s, color 0.2s, padding 0.2s, opacity 0.2s, border 0.1s;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+.button button:hover {
+    background-color: rgb(90, 90, 255);
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid rgb(90, 90, 255);
+}
+.button button:active {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+.about-user {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1px;
+
+
+}
+.details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px 10px 10px;
+}
+.details input {
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 5px;
+    padding: 10px;
+}
+.details label {
+    padding-bottom: 5px;
+}
+.FirstName, .LastName {
+    width: 100%;
+}
+
+.dob {
+width: calc(50% - 25px);
+}
+
+.option label {
+    padding-left: 8px;
+}
+
+small {
+    margin-top: 5px;
+}
+
